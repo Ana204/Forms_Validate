@@ -12,6 +12,6 @@ This project is a small registration form with validation, with some simple rule
 
 ###  `Functionalities`
 1 - Required fields, 
-2 - First name and last name fields have a limit of at least 2 characters, 
-3 - Email field is required an email standard for example (Ana@hotmail.com), 
+2 - First name and last name fields have a limit of at least 2 characters, <br>
+3 - Email field is required an email standard for example (Ana@hotmail.com), <br>
 4 - Password field is mandatory at least up to 5 characters;
