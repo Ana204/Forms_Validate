@@ -10,6 +10,9 @@ let Validator = {
         //pegando todos os inputs que há no formulario 
         let inputs = form.querySelectorAll('input');
 
+        //chamando função para limpar os erros
+        Validator.clearErrors();
+
         //loop para verificar cada um dos campos individualmentes 
         for(let i=0; i<inputs.length;i++){
             let input = inputs[i];
@@ -50,8 +53,32 @@ let Validator = {
          }
          return true;
      },
+
+     //função para exibir o erro na tela 
      showError: (input, error) => {
          input.style.borderColor = '#FF0000';
+
+         let errorElement = document.createElement('div');
+         errorElement.classList.add('error');
+         errorElement.innerHTML = error;
+
+         //adicionando a div  abaixo do input
+         input.parentElement.insertBefore(errorElement, input.ElementSibling);
+     },
+
+     //função para limpar os erros
+     clearErrors: () => {
+
+        //removendo a border 
+        let inputs = form.querySelectorAll('input');
+         for(let i=0; i<inputs.length; i++){
+             inputs[i].style = '';
+         }
+
+         let errorElements = document.querySelectorAll('.error');
+         for(let i=0; i<errorElements.length; i++){
+             errorElements[i].remove();
+         }
      }
 };
 
