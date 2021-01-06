@@ -24,3 +24,7 @@ $ https://github.com/Ana204/Forms_Validate.git
 ✔ - HTML, <br>
 ✔ - CSS; 
 
+Thank you ♥!
+
+### `Images right for Brave` !!
+
