@@ -18,3 +18,9 @@ This project is a small registration form with validation, with some simple rule
 
 **Cloning the Repository**  <br>
 $ https://github.com/Ana204/Forms_Validate.git
+
+### `Features`  <br>
+✔ - JavaScript, <br>
+✔ - HTML, <br>
+✔ - CSS; 
+
