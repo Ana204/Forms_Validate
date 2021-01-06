@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+.screen{
+    display: flex;
+    height: 100vh;
+}
+.leftside{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftside img{
+    width: 100%;
+    height: 100%;
+}
+.rightside{
+    width: 450px;
+    background-color: rgba(129, 23, 143, 0.39);
+}
