@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body{
     margin: 0;
 }
@@ -18,4 +21,20 @@ body{
 .rightside{
     width: 450px;
     background-color: rgba(129, 23, 143, 0.39);
+    padding: 50px;
+}
+.rightside label{
+    display: block;
+    margin-bottom: 10px;
+}
+.rightside input{
+    width: 100%;
+    border: 1px solid #da781d88;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 15px;
+    outline: 0;
+}
+.rightside input:hover{
+    border: 1px solid #e44023a6;
 }
