@@ -16,7 +16,7 @@ let Validator = {
             let check = Validator.checkInput(input);
             if(check !== true){
                 send = false;
-                console.log(check);
+                Validator.showError(input,check);
             }
         }
 
@@ -48,6 +48,10 @@ let Validator = {
                  }
              }
          }
+         return true;
+     },
+     showError: (input, error) => {
+         input.style.borderColor = '#FF0000';
      }
 };
 
