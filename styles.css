@@ -38,3 +38,10 @@ body{
 .rightside input:hover{
     border: 1px solid #e44023a6;
 }
+.error{
+    font-size: 13px;
+    background-color: #FF0000;
+    color: #FFF;
+    padding: 4px;
+    border-radius: 5px;
+}
